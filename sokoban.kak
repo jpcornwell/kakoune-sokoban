@@ -4,7 +4,7 @@
 ##
 
 # Selections description of all the holes on the map
-declare-option -hidden str _sokoban_holes
+declare-option -hidden str-list _sokoban_holes
 
 # Colorize the levels
 add-highlighter shared/sokoban group
